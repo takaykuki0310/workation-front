@@ -9,11 +9,47 @@
 	background: linear-gradient(to right, $primary-color, $secondary-color);
 }
 
+.backgroundGreen {
+	background: $green;
+}
+
 .center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
+.hero-body {
+	height: 812px;
+}
+
+.next-button {
+	position: absolute;
+	bottom: 100px;
+	padding: 0 30px;
+  width: calc(100% - 60px);
+}
+
+.main-question {
+	position: absolute;
+  top: 130px;
+  width: 100%;
+	font-weight: bold;
+	line-height: 180%;
+	text-align: center;
+}
+
+.progress {
+	width: 90%;
+	margin: 0 auto;
+}
+
+a {
+	.buttons .button {
+		margin-bottom: 1rem;
+	}
+}
+
 
 .footer {
 	display: flex;

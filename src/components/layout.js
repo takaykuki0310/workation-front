@@ -3,16 +3,21 @@ import React from 'react';
 import './style.scss';
 import Helmet from './helmet';
 import Header from './header';
-import Midsection from './midsection';
+import Question from './question';
 import Footer from './footer';
 
-const Layout = ({ children }) => (
-	<div>
-		<Helmet />
-		<Header />
-		<Midsection />
-		<Footer />
+import { Location } from '@reach/router';
+
+const Layout = ({ }) => {
+	return (
+		<div>
+				<Helmet />
+				<Header />
+				<Question />
+				<Footer />
 	</div>
-);
+	)
+
+};
 
 export default Layout;
