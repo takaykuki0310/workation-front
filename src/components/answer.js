@@ -34,6 +34,7 @@ class answer extends React.Component {
 				<div className="container">
 			  		<p className="title main-question">あなたが行くべきワーケーション先は{spot.name}です</p>
 			  		<p><progress className="progress is-info" value="100" max="100">20%</progress></p>
+					<img src={spot.photoUrl} />
 				</div>
 			);
 		}
